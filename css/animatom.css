@@ -1,0 +1,9 @@
+{
+animation-name: ;/*アニメーションの名前*/
+animation-duration: ;/*アニメーションの再生時間*/
+animation-delay: ;/*アニメーション開始時間*/
+animation-iteration-count: ;/*アニメーションの再生回数*/
+animation-timing-function: ;/*アニメーションの変化度合い*/
+animation-fill-mode: ;/*アニメーション開始時、終了後のスタイルを指定*/
+animation: ;/*アニメーションの一括作成*/
+}

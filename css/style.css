@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+  font-family: "メイリオ", Meiryo;
+  background-color: #fff;
+}
+
+@keyframes fadeOut {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes slideVertical{
+0%{
+    transform: translateY(0);
+}
+100%{
+    transform: translateY(200px);
+}
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: 150px auto 0;
+}
+
+/*img01：アニメーション開始時間を2秒後にしたうえで、5秒かけてフェードアウトさせて下さい。
+　フェードアウト後はそのまま非表示にさせて下さい。*/
+.img01{
+    -webkit-animation: fadeOut 5s 2s ease forwards;
+}
+
+/*img02：片道3秒かけて上下運動を繰り返すようにして下さい。*/
+.img02{
+    -webkit-animation: slideVertical 3s ease-in-out infinite alternate;
+
+}
+
+/*# sourceMappingURL=style.css.map */
